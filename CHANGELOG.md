@@ -10,3 +10,5 @@
 - Fixture-backed tests, runnable examples, CI, comprehensive documentation, and RubyGems release guidance.
 - Webhook verification tests use generic payload data without assuming undocumented
   event names or payload fields.
+- Development dependencies constrain `parallel` to the Ruby 3.1-compatible 1.x
+  series so the complete Ruby 3.1–4.0 CI matrix resolves consistently.
