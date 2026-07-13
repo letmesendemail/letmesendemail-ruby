@@ -1,0 +1,46 @@
+plugins:
+  - rubocop-rspec
+
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.1
+  SuggestExtensions: false
+
+RSpec/MultipleExpectations:
+  Max: 8
+
+Metrics/AbcSize:
+  Max: 30
+
+Metrics/CyclomaticComplexity:
+  Max: 12
+
+Metrics/MethodLength:
+  Max: 25
+
+Metrics/ParameterLists:
+  CountKeywordArgs: false
+
+Metrics/PerceivedComplexity:
+  Max: 12
+
+RSpec/AnyInstance:
+  Exclude:
+    - spec/resources_spec.rb
+
+RSpec/DescribeClass:
+  Exclude:
+    - spec/errors_spec.rb
+    - spec/fixture_contract_spec.rb
+    - spec/production_spec.rb
+
+RSpec/ExampleLength:
+  Max: 15
+
+RSpec/SpecFilePathFormat:
+  Exclude:
+    - spec/**/*_spec.rb
+
+RSpec/SubjectStub:
+  Exclude:
+    - spec/production_spec.rb

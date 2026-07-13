@@ -1,0 +1,12 @@
+/.bundle/
+/coverage/
+/pkg/
+/vendor/bundle/
+/*.gem
+/.ruby-lsp/
+/.yardoc/
+/doc/
+/.DS_Store
+/.idea/
+/.vscode/
+*.swp

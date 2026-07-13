@@ -1,0 +1,15 @@
+# frozen_string_literal: true
+
+require_relative 'letmesendemail/version'
+require_relative 'letmesendemail/config'
+require_relative 'letmesendemail/errors'
+require_relative 'letmesendemail/models'
+require_relative 'letmesendemail/http_transport'
+require_relative 'letmesendemail/client'
+require_relative 'letmesendemail/webhooks'
+require_relative 'letmesendemail/resources/base'
+require_relative 'letmesendemail/resources/emails'
+require_relative 'letmesendemail/resources/domains'
+require_relative 'letmesendemail/resources/contacts'
+require_relative 'letmesendemail/resources/contact_categories'
+require_relative 'letmesendemail/resources/email_topics'
